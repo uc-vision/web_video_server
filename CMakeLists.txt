@@ -40,13 +40,10 @@ include_directories(include
 )
 
 ## Declare a cpp executable
+## Declare a cpp executable
 add_executable(${PROJECT_NAME}
   src/web_video_server.cpp
   src/image_streamer.cpp
-  src/libav_streamer.cpp
-  src/vp8_streamer.cpp
-  src/h264_streamer.cpp
-  src/vp9_streamer.cpp
   src/multipart_stream.cpp
   src/ros_compressed_streamer.cpp
   src/jpeg_streamers.cpp
